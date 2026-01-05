@@ -26,16 +26,18 @@ The Job Application Autofiller is a browser extension that helps job seekers sav
 
 1.  Clone or Download the Repository
     
+   ```bash
     git clone <repository-url>
     cd job-autofiller-extension
-
+    ```
 
 2.  Load the Extension in Chrome
-    1.   Open Chrome and navigate to `chrome://extensions/`.
-    2.   Toggle "Developer mode" in the top right corner.
-    3.   Click "Load unpacked"
-    4.   Select the `job-autofiller-extension` directory.
-    5.   Pin the Extension to Toolbar.
+    *   Open Chrome and navigate to `chrome://extensions/`.
+    *   Toggle **"Developer mode"** in the top right corner.
+    *   Click **"Load unpacked"**.
+    *   Select the `job-autofiller-extension` directory.
+    *   Pin the Extension to Toolbar
+
 
 ## Usage
 
@@ -51,16 +53,21 @@ The Job Application Autofiller is a browser extension that helps job seekers sav
 
 ## Project Structure
 
-JOB-AUTOFILLER-EXTENSION/
-├── icons/                # Contains icon16.png, icon48.png, icon128.png
-├── popup/                # Extension UI components
-│   ├── popup.css         # Styling for the extension menu
-│   ├── popup.html        # HTML structure of the popup interface
-│   └── popup.js          # Handles save/edit logic & triggering autofill
-├── scripts/              # Functional site-interaction scripts
-│   └── content.js        # DOM-heavy logic injected into websites
-├── manifest.json         # Extension configuration (Permissions/Metadata)
-└── README.md             # Project overview and installation guide
+```text
+job-autofiller-extension/
+├── icons/                  # Extension icons
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
+├── popup/                  # Popup UI and logic
+│   ├── popup.css
+│   ├── popup.html
+│   └── popup.js
+├── scripts/                # Content scripts injected into pages
+│   └── content.js
+├── manifest.json           # Extension manifest and permissions
+└── README.md               # Project documentation
+```
 
 
 ## Future Improvements
