@@ -24,7 +24,7 @@ The Job Application Autofiller is a browser extension that helps job seekers sav
 
 ## Installation and Setup
 
-1.  Clone or Download the Repository
+1. **Clone or Download the Repository**
     
    ```bash
     git clone <repository-url>
