@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+    <h3>My Info</h3>
+    <div class="input-group">
+        <input type="text" id="nameInput" placeholder="Full Name">
+        <small class="error-msg" id="nameError"></small>
+    </div>
+    <div class="input-group">
+        <input type="email" id="emailInput" placeholder="Email">
+        <small class="error-msg" id="emailError"></small>
+    </div>
+    <div class="input-group">
+        <input type="tel" id="phoneInput" placeholder="Phone">
+        <small class="error-msg" id="phoneError"></small>
+    </div>
+    <div class="button-group">
+        <button id="saveBtn" disabled>Save Profile</button>
+        <button id="editBtn" style="display: none;">Edit Profile</button>
+    </div>
+    <hr>
+    <button id="fillBtn">Autofill Form</button>
+    <p id="status" style="font-size: 10px; color: green;"></p>
+    <script src="popup.js"></script>
+</div>
+</body>
+</html>
